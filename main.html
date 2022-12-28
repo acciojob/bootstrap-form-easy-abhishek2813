@@ -30,12 +30,14 @@
 				<div class="form-group">
 					<label for="last-name-input" class="form-label">Last Name</label>
 					<input type="text" name="name" class="form-control"id="last-name-input" required>
+					<div class="invalid-feedback">Last Name Required</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="form-group">
 					<label for="email-input" class="form-label">Email Address</label>
 					<input type="email" name="name" class="form-control" id="email-input" required>
+					<div class="invalid-feedback">Email Required</div>
 				</div>
 			</div>
 		</div>
@@ -43,6 +45,7 @@
 			<div class="form-group">
 				<label for="college-input" class="form-label">College</label>
 				<input type="text" name="name" class="form-control" id="college-input" required>
+				<div class="invalid-feedback">College Required</div>
 			</div>
 		</div>
 		<div class="col-md-3">
@@ -56,11 +59,13 @@
 					<option value="2023">2023</option>
 				  </select>
 			</div>
+			<div class="invalid-feedback">Graduation Required</div>
 		</div>
 		<div class="col-md-3">
 			<div class="form-group">
 				<label for="roll-no-input" class="form-label">Roll No.</label>
 				<input type="text" name="name" class="form-control" id="roll-no-input"required>
+				<div class="invalid-feedback">Roll No Required</div>
 			</div>
 		</div>
 		<div class="col-md-12">
@@ -68,6 +73,7 @@
       <label class="form-check-label" for="conditions-checkbox">
         Agree to terms and conditions
       </label>
+	  <div class="invalid-feedback">Agree to terms and conditions</div>
 		</div>
 		<div class="col-12">
 			<button class="btn btn-primary" type="submit">Submit form</button>
